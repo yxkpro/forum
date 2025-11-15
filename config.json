@@ -1,0 +1,13 @@
+{
+  "url": "${NODEBB_URL}",
+  "secret": "${NODEBB_SECRET}",
+  "database": "postgres",
+  "postgres": {
+    "host": "${PGHOST}",
+    "port": "${PGPORT}",
+    "username": "${PGUSER}",
+    "password": "${PGPASSWORD}",
+    "database": "${PGDATABASE}"
+  },
+  "port": "${PORT:4567}"
+}
