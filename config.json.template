@@ -9,5 +9,5 @@
     "password": "${PGPASSWORD}",
     "database": "${PGDATABASE}"
   },
-  "port": "${PORT:4567}"
+  "port": "${PORT}"
 }
